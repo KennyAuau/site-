@@ -1,110 +1,119 @@
-body{
-    background-image: url("../estilo/imagens/bg.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background-color: rgba(240, 248, 255, 100);
-    background-size: 100% 100%;
-
+body {
+  background-image: url("../estilo/imagens/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgba(240, 248, 255, 100);
+  background-size: 100% 100%;
 }
 
-    #bottoms{
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0);
-    width: 200%;
-    overflow: hidden;
+#bottoms {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+  width: 200%;
+  overflow: hidden;
 
-    display: contents;
-    justify-content: left;
-   align-items: left;
+  display: contents;
+  justify-content: left;
+  align-items: left;
 }
-#sitestart{
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.159);
-    width: 100%;
-    overflow: hidden;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1{
-        color: white;}
-    }
+#sitestart {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.159);
+  width: 100%;
+  overflow: hidden;
 
-    #divine{
-      position: flex;
-display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+  }
+}
+
+#divine {
+  position: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
   border: 0px solid black;
-    }
+}
 
-  
-    #text{
-      overflow: visible;
-      h1{
-        text-align: center;
-        font-family: jojoba;
-        color: #473051;
-        
+#text {
+  overflow: visible;
+  h1 {
+    text-align: center;
+    font-family: jojoba;
+    color: #473051;
+  }
+  h4 {
+    color: #b827fc;
+    margin-left: 10px;
+    text-shadow: #b827fc;
+  }
+  p {
+    margin-left: 10px;
+    font-family: jojoba;
+    color: white;
+  }
 
-      }
-      h4{
-        color: #b827fc;
-        margin-left: 10px;
-        text-shadow: #b827fc;
-      }
-      p{
-        margin-left: 10px;
-        font-family: jojoba;
-        color: white;
-      }
-      
-        img{
-        margin-left: 10px;
-      }
-      
+  img {
+    margin-left: 10px;
+  }
 
   background-color: #0d0d0d;
   border: 2px solid transparent;
-  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
   border-image-slice: 1;
   height: fit-content;
   margin: 90px auto;
   width: 600px;
-  button{
+  button {
     margin-bottom: 20px auto;
     align-self: center;
     border: 2px solid transparent;
-  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-  border-image-slice: 1;
+    border-image: linear-gradient(
+      to bottom right,
+      #b827fc 0%,
+      #2c90fc 25%,
+      #b8fd33 50%,
+      #fec837 75%,
+      #fd1892 100%
+    );
+    border-image-slice: 1;
     color: #0d0d0d;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 20px;
-  cursor: pointer;
-  font-family: kinkie;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-family: kinkie;
   }
-  img{
+  img {
     width: 45%;
     height: 45%;
   }
-    }
+}
 
-    
-    /*fontes*/
-    
-    @font-face {
-font-family: kinkie;
-src: url(https://dl.dropbox.com/s/b2jkn3py4agc9nn/kinkie.regular.ttf);
+/*fontes*/
+
+@font-face {
+  font-family: kinkie;
+  src: url(https://dl.dropbox.com/s/b2jkn3py4agc9nn/kinkie.regular.ttf);
 }
 
 @font-face {
-src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
-font-family: jojoba;
+  src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+  font-family: jojoba;
 }
